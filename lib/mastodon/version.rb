@@ -21,7 +21,7 @@ module Mastodon
     end
 
     def suffix
-      ''
+      '+mathspy'
     end
 
     def to_a
@@ -33,7 +33,7 @@ module Mastodon
     end
 
     def repository
-      ENV.fetch('GITHUB_REPOSITORY', 'mastodon/mastodon')
+      ENV.fetch('GITHUB_REPOSITORY', 'mathspy/mastodon')
     end
 
     def source_base_url
