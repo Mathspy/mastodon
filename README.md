@@ -14,6 +14,16 @@
 [code_climate]: https://codeclimate.com/github/mastodon/mastodon
 [crowdin]: https://crowdin.com/project/mastodon
 
+This is a minor fork of Mastodon that attempts to pick simple quality of life changes while avoiding anything that might have potential security implications or that might make the process of upgrading the fork time consuming.
+
+The fork is rebased manually whenever there's a new release and can be used by adding this repo as a remote and checking out the latest tag. All changes are compatible and the fork can be switched back and forth from safely.
+
+The current list of changes:
+
+- Make character limit configurable [#5697](https://github.com/mastodon/mastodon/pull/5697)
+
+---
+
 Mastodon is a **free, open-source social network server** based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub!)
 
 Click below to **learn more** in a video:
