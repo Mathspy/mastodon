@@ -84,8 +84,8 @@ RSpec.describe InstancePresenter do
         end
       end
 
-      it 'defaults to the core mastodon repo URL' do
-        expect(instance_presenter.source_url).to eq('https://github.com/mastodon/mastodon')
+      it 'defaults to the forked mastodon repo URL' do
+        expect(instance_presenter.source_url).to eq('https://github.com/mathspy/mastodon')
       end
     end
   end
